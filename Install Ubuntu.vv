@@ -1,0 +1,10 @@
+[virt-viewer]
+type=vnc
+title=Install Ubuntu
+host=one-dell2
+port=10386
+proxy=http://one-frontend:29876?token=sw66et9hznypjbznvst8
+fullscreen=0
+toggle-fullscreen=shift+f11
+release-cursor=shift+f12
+secure-attention=ctrl+alt+end

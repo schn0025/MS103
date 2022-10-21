@@ -12,3 +12,5 @@ def test(n):
         print('test')
     return None
 test(3)
+def coucou():
+    print("coucou") 

@@ -9,6 +9,7 @@ from sphinx import*
 
 def nbPremier(n:int)->list:
     """
+    but: afficher une liste des n nb premier
     parametre:
         n: nopmbre de premier voulu 
     retour:
@@ -39,6 +40,7 @@ def nbPremier(n:int)->list:
                         lst.pop(curs)
                     else:
                         curs+=1
+
 
     return lst1
 print(nbPremier(10))
